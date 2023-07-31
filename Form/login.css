@@ -20,4 +20,49 @@ body, html {
     border: 1px solid rgba(255, 255, 255, 0.125);
     padding: 50px;
     max-width: 600px;
+    height: 350px;
+    position: relative;
+    width:100%;
 }
+
+.card  {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+ h1 {
+    font-family: 'Hind Siliguri', sans-serif;
+    font-family: 'Itim', cursive;
+    font-size: 35px;
+}
+
+.inputs {
+     margin: 10px;
+     margin-left: 30px;
+     padding: 5px;
+     font-family: 'Sen', sans-serif;
+     border-radius: 8px;
+     border: 0px;
+}
+
+label {
+    font-family: 'Kalam', cursive;
+    font-size: 22px;
+}
+
+.button {
+    font-family: 'Concert One', cursive;
+    padding: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: antiquewhite;
+    border: 0px;
+    border-radius: 5px;
+}
+
+.button:hover {
+    background-color: bisque;
+}
+
