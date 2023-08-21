@@ -6,7 +6,7 @@
         <title>Skill Assessment</title>
       </head>
       <body style="background-color: pink; padding: 40px;">
-        <center><hl1>Skill Assessment</h1></center>
+        <center><h1>Skill Assessment</h1></center>
         <hr></hr>
         <xsl:apply-templates select="skills/skill">
           <xsl:sort select="actual_level >= required_level" order="descending"/>
